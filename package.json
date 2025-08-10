@@ -1,16 +1,16 @@
 {
   "name": "counter-app",
+  "homepage": "https://alreynn.github.io/counter-react",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://alreynn.github.io/counter-react",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
   },
   "dependencies": {
     "react": "^19.1.1",
